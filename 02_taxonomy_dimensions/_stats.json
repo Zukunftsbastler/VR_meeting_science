@@ -1,0 +1,26 @@
+{
+  "total_raw": 57,
+  "duplicates_removed": 27,
+  "total_unique": 30,
+  "n_included": 13,
+  "n_excluded": 17,
+  "top3_exclusion": [
+    [
+      "Off-topic title \u2014 paper unrelated to professional meeting taxonomy",
+      11
+    ],
+    [
+      "Missing IC2 & IC3 \u2014 no taxonomy or structural meeting analysis",
+      4
+    ],
+    [
+      "EC5 \u2014 Conference proceedings index entry or non-research document",
+      2
+    ]
+  ],
+  "csv_files": [
+    "scopus_export_Apr 1-2026_101cde22-f4a3-432e-bf34-aee8cd18b92a.csv",
+    "scopus_export_Apr 1-2026_0bff5d5b-d341-445d-86ee-2d152d7c49f8.csv",
+    "scopus_export_Apr 1-2026_754814d1-a959-4c15-8ae1-eb369ec04bb1.csv"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "total_raw": 1005,
+  "duplicates_removed": 13,
+  "total_unique": 992,
+  "n_included": 206,
+  "n_excluded": 786,
+  "top3_exclusion": [
+    [
+      "Missing IC2 \u2014 VR present but no charisma/leadership/trust dimension",
+      586
+    ],
+    [
+      "Missing IC1 \u2014 No VR/avatar/metaverse focus",
+      187
+    ],
+    [
+      "EC1 \u2014 Clinical/therapeutic VR without interpersonal trust/charisma analysis",
+      6
+    ]
+  ],
+  "csv_files": [
+    "scopus_export_Apr 1-2026_2a5d1071-72af-45a3-a55e-7bdd20f80134.csv",
+    "scopus_export_Apr 1-2026_6107be1e-c88d-4c80-896e-3afc2545c639.csv"
+  ]
+}

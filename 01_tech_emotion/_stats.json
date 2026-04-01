@@ -1,0 +1,25 @@
+{
+  "total_raw": 183,
+  "duplicates_removed": 3,
+  "total_unique": 180,
+  "n_included": 151,
+  "n_excluded": 29,
+  "top3_exclusion": [
+    [
+      "EC1 \u2014 Clinical/medical VR without interpersonal analysis",
+      17
+    ],
+    [
+      "Missing IC1 \u2014 No VR/XR/immersive technology focus",
+      7
+    ],
+    [
+      "Missing IC2 \u2014 No interpersonal/social interaction dimension",
+      5
+    ]
+  ],
+  "csv_files": [
+    "scopus_export_Apr 1-2026_d05cc02e-320d-41e6-94b9-8cf088359d5d.csv",
+    "scopus_export_Apr 1-2026_25d2c753-fb17-4902-b309-2f4d3fbdb5db.csv"
+  ]
+}
