@@ -103,25 +103,72 @@ Record `quality_flag` (pass / flag / reject) in `extracted_data.csv`.
 
 This is the core analytical phase, generating the paper's primary output.
 
-**Step 5.1 — Dimension Consolidation:**
+#### Taxonomy Type Decision: Faceted Taxonomy
+
+**Chosen approach:** The canonical framework constructed in this paper is a **faceted taxonomy**.
+
+A faceted taxonomy defines a set of independent, orthogonal dimensions (facets). Each meeting type is described by assigning a value on every facet simultaneously; the combination of values constitutes the meeting type's profile. No single hierarchy is imposed, and a meeting type can score anywhere on any facet independently of its scores on others.
+
+**Why faceted, not an alternative:**
+
+| Type | Why rejected for this paper |
+|------|-----------------------------|
+| Hierarchical (tree) | Forces each meeting type into a single branch. Meetings blend purposes (a negotiation is also a decision meeting); a tree cannot represent this without arbitrary branching choices that introduce researcher bias. |
+| Polyhierarchical | Allows multiple parents but still imposes inherited properties top-down. More flexible than a strict tree, but adds structural complexity without adding analytical power for VR scoring. |
+| Flat list | Assigns named types with no dimensional structure. Provides no mechanism to compute VR suitability as a function of meeting characteristics. |
+| Dimensional/continuous matrix | Places meetings in a continuous space on two or three axes. Useful for visualization (see Phase 6) but cannot serve as the classification instrument itself, since most dimensions in this paper are ordinal or categorical, not continuous. |
+
+**Why faceted is correct here:** The VR Suitability Model (Step 5.4) must compute a score as a weighted sum of independent dimension-level contributions. This is only tractable if each dimension is an independent facet: the score for Task Abstraction does not depend on what the meeting scores for Group Size. A hierarchical structure would collapse these independent contributions into categorical placements, making the scoring model impossible to operationalize. The faceted structure also satisfies the MECE principle required for reliability: facets must be Mutually Exclusive (no two facets measure the same underlying construct) and Collectively Exhaustive (together they capture all dimensions relevant to VR suitability).
+
+---
+
+**Step 5.1 — Facet Consolidation:**
 1. Collect all unique dimension labels from the `dimensions_identified` field across all included papers.
-2. Group semantically equivalent dimensions (e.g., "formality level" = "degree of structure" = "meeting formality").
-3. Produce a canonical dimension list with unified labels and cross-paper aliases.
+2. Group semantically equivalent dimensions under a single canonical label (e.g., "formality level" = "degree of structure" = "meeting formality" → canonical: **Formality**). Record all aliases.
+3. Apply the **orthogonality check**: for any two candidate facets, ask whether knowing a meeting's value on facet A provides information about its value on facet B. If yes (e.g., "decision authority" and "meeting formality" are correlated but not identical), retain both but flag the correlation. If they are near-synonyms measuring the same construct, merge them.
+4. Produce the final canonical facet list. Each facet must be:
+   - **Independently scorable:** A meeting can be assigned a value on this facet without knowing its values on other facets.
+   - **Operationally defined:** The scoring rule is unambiguous (see Step 5.2).
+   - **Relevant to VR suitability:** At least one directional hypothesis about VR performance is derivable (see Step 5.4).
 
-**Step 5.2 — Dimension Codebook:**
-For each canonical dimension, define:
-- `dimension_id`: Short code (e.g., DIM01)
-- `label`: Canonical label (e.g., Task Abstraction)
-- `definition`: 1–2 sentence operational definition
-- `value_range`: Possible values or scale (e.g., abstract ↔ concrete; ordinal 1–5; categorical)
-- `source_papers`: Which papers address this dimension
-- `vr_hypothesis`: Hypothesis about how VR performance varies along this dimension (e.g., "VR is disadvantaged for high-abstraction tasks requiring shared physical artefacts")
+**Step 5.2 — Facet Codebook:**
+For each canonical facet, define the following fields. These form the authoritative codebook used during Step 5.3 scoring.
 
-**Step 5.3 — Meeting Type × Dimension Matrix:**
-- Rows: standard professional meeting types (minimum set: status update, decision meeting, brainstorming/ideation, negotiation, training/onboarding, social/team-building, one-on-one feedback)
-- Columns: canonical dimensions from Step 5.1
-- Cell values: score or qualitative rating derived from literature; flag if literature-derived vs. extrapolated
-- This directly answers RQ3.
+| Field | Description |
+|-------|-------------|
+| `facet_id` | Short code (e.g., F01, F02, …) |
+| `label` | Canonical facet label (e.g., Task Abstraction) |
+| `aliases` | Alternative labels used in source papers |
+| `definition` | 1–2 sentence operational definition |
+| `value_range` | Scoring scale: ordinal (e.g., 1 = fully concrete ↔ 5 = fully abstract), binary (yes/no), or categorical (e.g., unidirectional / bidirectional / multi-directional) |
+| `anchor_descriptions` | Brief description of what scores 1 and 5 (or each category) look like in practice |
+| `source_papers` | Paper IDs that define or use this facet |
+| `vr_hypothesis` | Directional hypothesis: "When a meeting scores HIGH on this facet, VR is [more / less / neutral] suitable because [mechanism]." |
+
+**Step 5.3 — Faceted Meeting Profile Matrix:**
+
+Using the faceted taxonomy decided above, construct the **Meeting Type × Facet Profile Matrix**: each meeting type is assigned a value on every facet, producing a structured faceted profile.
+
+**Meeting types (minimum set):**
+Status update, decision meeting, brainstorming/ideation, negotiation, training/onboarding, social/team-building, one-on-one feedback.
+Add further types if source papers identify them as distinct.
+
+**Scoring procedure:**
+1. For each meeting type, assign a value on each facet using the anchor descriptions from the Step 5.2 codebook.
+2. Derive values from source literature where possible. If no paper directly characterizes this meeting type on this facet, apply reasoned inference from the meeting type's definition and flag the cell as `[inferred]`.
+3. Record provenance: for each cell, note whether the value is `[literature-derived]`, `[inferred-from-definition]`, or `[extrapolated-from-adjacent-type]`.
+
+**Output format:** A matrix where rows are meeting types, columns are facet IDs, and each cell contains the facet value plus a provenance flag. Example structure:
+
+| Meeting Type | F01 Task Abstraction | F02 Decision Authority | F03 Group Size | … | VR Suitability (Step 5.4) |
+|---|---|---|---|---|---|
+| Status update | 2 — concrete [lit] | Centralized [lit] | Medium [lit] | … | — |
+| Negotiation | 3 — mixed [inferred] | Distributed [lit] | Small [lit] | … | — |
+| Brainstorming | 5 — abstract [lit] | Distributed [lit] | Medium [inferred] | … | — |
+
+The completed matrix directly answers **RQ3** and serves as the input to the VR Suitability Model in Step 5.4.
+
+**Validation:** After scoring, check that no two meeting types share an identical profile across all facets. If they do, either a facet is redundant (merge it) or the two meeting types are not genuinely distinct (merge them or add a discriminating facet).
 
 **Step 5.4 — VR Suitability Model:**
 For each dimension, formulate a directional hypothesis (from RQ4) using the following template:
@@ -139,9 +186,10 @@ Compare the canonical dimension set from Step 5.1 against a theoretical checklis
 
 Following Petersen et al. (2015) Section 5 on visualization:
 
-- **Bubble chart:** X = time (publication year); Y = dimension category; bubble size = number of papers addressing that dimension. Shows research attention trends.
-- **Heat map:** Meeting type × dimension matrix (from Step 5.3), color-coded by VR suitability direction.
-- **Taxonomy tree:** Hierarchical diagram of meeting types organized by primary discriminating dimensions.
+- **Bubble chart:** X = time (publication year); Y = facet category; bubble size = number of papers addressing that facet. Shows research attention trends across the literature.
+- **Heat map:** Meeting Type × Facet Profile Matrix (from Step 5.3), color-coded by facet value (e.g., blue = low, red = high for ordinal facets; categorical facets use distinct hues). Overlay a secondary color scale for the VR Suitability Score from Step 5.4.
+- **2D Dimensional Map:** Select the two most discriminating facets (those with the highest variance across meeting types) as X and Y axes. Plot each meeting type as a labeled point in this space. This reveals natural clusters and makes the VR suitability gradient visible as a region in the 2D space. A taxonomy tree is explicitly **not** used, as it would impose a hierarchical structure that contradicts the faceted decision: meeting types do not inherit properties from a parent node, and their VR suitability is a function of their full multi-dimensional profile, not their position in a branch.
+- **Radar / spider chart (optional):** For selected individual meeting types, plot their full faceted profile as a radar chart with one axis per facet. Allows direct visual comparison of two meeting types' profiles.
 
 ### Phase 7 — Manuscript Drafting
 

@@ -1,0 +1,54 @@
+[
+  {
+    "topic_id": 0,
+    "mean_silhouette": 0.7728309631347656
+  },
+  {
+    "topic_id": 1,
+    "mean_silhouette": 0.33084729313850403
+  },
+  {
+    "topic_id": 2,
+    "mean_silhouette": 0.5322587490081787
+  },
+  {
+    "topic_id": 3,
+    "mean_silhouette": 0.6339603066444397
+  },
+  {
+    "topic_id": 4,
+    "mean_silhouette": 0.7817743420600891
+  },
+  {
+    "topic_id": 5,
+    "mean_silhouette": 0.3177582919597626
+  },
+  {
+    "topic_id": 6,
+    "mean_silhouette": 0.33251917362213135
+  },
+  {
+    "topic_id": 7,
+    "mean_silhouette": 0.4242364168167114
+  },
+  {
+    "topic_id": 8,
+    "mean_silhouette": 0.7229037284851074
+  },
+  {
+    "topic_id": 9,
+    "mean_silhouette": 0.31268078088760376
+  },
+  {
+    "topic_id": 10,
+    "mean_silhouette": -0.015197980217635632
+  },
+  {
+    "topic_id": 11,
+    "mean_silhouette": 0.6218234300613403
+  },
+  {
+    "topic_id": 12,
+    "mean_silhouette": 0.5981152057647705
+  }
+]

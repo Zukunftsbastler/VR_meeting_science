@@ -1,0 +1,1210 @@
+[
+  {
+    "doc_id": 0,
+    "title": "Towards a Methodological Framework for Multimodal Input in Social Interaction in Virtual Reality",
+    "doi": "10.1109/ISMAR-Adjunct68609.2025.00143",
+    "year": 2025,
+    "topic_id": 10,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 1,
+    "title": "Realistic Motion Avatars are the Future for Social Interaction in Virtual Reality",
+    "doi": "10.3389/frvir.2021.750729",
+    "year": 2022,
+    "topic_id": 1,
+    "topic_prob": 0.9517
+  },
+  {
+    "doc_id": 2,
+    "title": "Hand-in-Hand: A Communication-Enhancement Collaborative Virtual Reality System for Promoting Social Interaction in Children with Autism Spectrum Disorders",
+    "doi": "10.1109/THMS.2018.2791562",
+    "year": 2018,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 3,
+    "title": "Developing and Proving a Framework for Reaction Time Experiments in VR to Objectively Measure Social Interaction with Virtual Agents",
+    "doi": "10.1109/VR.2018.8446352",
+    "year": 2018,
+    "topic_id": 2,
+    "topic_prob": 0.7381
+  },
+  {
+    "doc_id": 4,
+    "title": "I Feel You: Impact of Shared Body Sensations on Social Interactions in Virtual Reality",
+    "doi": "10.1109/ISMAR62088.2024.00126",
+    "year": 2024,
+    "topic_id": 2,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 5,
+    "title": "Shaping pro-social interaction in VR an emerging design framework",
+    "doi": "10.1145/3290605.3300794",
+    "year": 2019,
+    "topic_id": 5,
+    "topic_prob": 0.6619
+  },
+  {
+    "doc_id": 6,
+    "title": "Using Virtual Reality Recreation Therapy to Enhance Social Interaction and Well-Being in Homebound Seniors",
+    "doi": "10.3390/jal4040027",
+    "year": 2024,
+    "topic_id": 3,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 7,
+    "title": "Influence of vision and haptics on plausibility of social interaction in virtual reality scenarios",
+    "doi": "10.1007/978-3-642-14075-4_25",
+    "year": 2010,
+    "topic_id": 2,
+    "topic_prob": 0.9133
+  },
+  {
+    "doc_id": 8,
+    "title": "Understanding Social Interaction and Physiological Patterns in Nonlean and Last Planner System-Based Project Teams: A Comparative Study Using Immersive Virtual Reality",
+    "doi": "10.1061/JCEMD4.COENG-15064",
+    "year": 2024,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 9,
+    "title": "A Comparison of Behaviours and Responses towards Different Social VR Environments in Initial Social Interaction",
+    "doi": "10.15187/adr.2022.08.35.3.53",
+    "year": 2022,
+    "topic_id": 5,
+    "topic_prob": 0.7218
+  },
+  {
+    "doc_id": 10,
+    "title": "Social Interactions in Virtual Reality: What Cues Do People Use Most and How",
+    "doi": "10.1145/3462204.3481772",
+    "year": 2021,
+    "topic_id": 6,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 11,
+    "title": "Promoting collective climate action and identification with environmentalists through social interaction and visual feedback in virtual reality",
+    "doi": "10.1016/j.jenvp.2025.102526",
+    "year": 2025,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 12,
+    "title": "Using virtual reality to induce gratitude through virtual social interaction",
+    "doi": "10.1016/j.chb.2020.106473",
+    "year": 2020,
+    "topic_id": 2,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 13,
+    "title": "Virtual reality-assessment of social interactions and prognosis in depression",
+    "doi": "10.1016/j.jad.2024.05.098",
+    "year": 2024,
+    "topic_id": 11,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 14,
+    "title": "Impact of virtual reality immersion on customer experience: moderating effect of cross-sensory compensation and social interaction",
+    "doi": "10.1108/APJML-11-2022-0920",
+    "year": 2024,
+    "topic_id": 5,
+    "topic_prob": 0.7218
+  },
+  {
+    "doc_id": 15,
+    "title": "AMD Journee: A Patient Co-designed VR Experience to Raise Awareness Towards the Impact of AMD on Social Interactions",
+    "doi": "10.1145/3639701.3656314",
+    "year": 2024,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 16,
+    "title": "The Koinos model: compelling social interactions in Virtual Reality",
+    "doi": "10.1080/1463922X.2026.2622021",
+    "year": 2026,
+    "topic_id": 5,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 17,
+    "title": "THE EFFECTIVENESS OF VIRTUAL REALITY (VR) TOOLS IN ENHANCING SOCIAL INTERACTION AMONG STUDENTS WITH EMOTIONAL AND BEHAVIORAL DISORDERS (EBD)",
+    "doi": "10.5281/zenodo.11322562",
+    "year": 2025,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 18,
+    "title": "Minimizing latency to support VR social interactions over wireless cellular systems via bandwidth allocation",
+    "doi": "10.1109/LWC.2018.2823761",
+    "year": 2018,
+    "topic_id": 12,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 19,
+    "title": "Multi-sensory evolution in VR allows more time to interpret, run hypotheses: Psycho-social interactions yet to be explored",
+    "doi": "",
+    "year": 2000,
+    "topic_id": 9,
+    "topic_prob": 0.9483
+  },
+  {
+    "doc_id": 20,
+    "title": "A novel collaborative virtual reality game for children with ASD to foster social interaction",
+    "doi": "10.1007/978-3-319-40238-3_27",
+    "year": 2016,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 21,
+    "title": "Virtual Avatar Movement Veracity and its Effect on Social Interaction in Virtual Reality",
+    "doi": "10.1007/978-3-031-62281-6_21",
+    "year": 2024,
+    "topic_id": 1,
+    "topic_prob": 0.7786
+  },
+  {
+    "doc_id": 22,
+    "title": "Developing an Immersive Virtual Reality Training System to Enrich Social Interaction and Communication Skills for Children With Autism Spectrum Disorder",
+    "doi": "10.1109/SIST54437.2022.9945733",
+    "year": 2022,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 23,
+    "title": "Distance Collaboration in Virtual Reality Learning Environments: A Comprehensive Study of Educational Innovation and Social Interaction",
+    "doi": "10.1145/3678392.3678416",
+    "year": 2024,
+    "topic_id": 4,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 24,
+    "title": "Why and how to use virtual reality to study human social interaction: The challenges of exploring a new research landscape",
+    "doi": "10.1111/bjop.12290",
+    "year": 2018,
+    "topic_id": 9,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 25,
+    "title": "More than buttons on controllers: Engaging social interactions in narrative VR games through social attitudes detection",
+    "doi": "10.1145/3514197.3551496",
+    "year": 2022,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 26,
+    "title": "\"hello i am here\": Proximal Nonverbal Cues Role in Initiating Social Interactions in VR",
+    "doi": "10.1145/3594738.3611356",
+    "year": 2023,
+    "topic_id": 6,
+    "topic_prob": 0.8374
+  },
+  {
+    "doc_id": 27,
+    "title": "Activeworlds: Geography and social interaction in virtual reality",
+    "doi": "10.1016/S0016-3287(01)00002-7",
+    "year": 2001,
+    "topic_id": 5,
+    "topic_prob": 0.5763
+  },
+  {
+    "doc_id": 28,
+    "title": "Embodied social interaction constitutes social cognition in Pairs of humans: A minimalist virtual reality experiment",
+    "doi": "10.1038/srep03672",
+    "year": 2014,
+    "topic_id": 2,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 29,
+    "title": "Warm regards: Influence of thermal haptic feedback during social interactions in VR",
+    "doi": "10.1109/ISMAR62088.2024.00138",
+    "year": 2024,
+    "topic_id": 2,
+    "topic_prob": 0.9133
+  },
+  {
+    "doc_id": 30,
+    "title": "Effectiveness of Social Virtual Reality Training in Enhancing Social Interaction Skills in Children With Attention-Deficit/Hyperactivity Disorder: Protocol for a Three-Arm Pilot Randomized Controlled Trial",
+    "doi": "10.2196/48208",
+    "year": 2023,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 31,
+    "title": "Space Echo 2.0: Exploring Social Interaction Through Communication Barriers in VR",
+    "doi": "10.1145/3721244.3742452",
+    "year": 2025,
+    "topic_id": 5,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 32,
+    "title": "Insights From the Nihon Housou Kyoukai\u2019s Virtual Reality\u2013Based Social Interaction Television Program \u201cProject Aliens\u201d for Adolescents With Psychiatric Disorders: Single-Center Case Series Study",
+    "doi": "10.2196/74401",
+    "year": 2025,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 33,
+    "title": "Socially Late, Virtually Present: The Effects of Transforming Asynchronous Social Interactions in Virtual Reality",
+    "doi": "10.1145/3613904.3642244",
+    "year": 2024,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 34,
+    "title": "Immersive virtual reality to model physical: Social interaction and self-representation",
+    "doi": "",
+    "year": 2016,
+    "topic_id": 9,
+    "topic_prob": 0.9294
+  },
+  {
+    "doc_id": 35,
+    "title": "Behavioural Realism and Its Impact on Virtual Reality Social Interactions Involving Self-Disclosure",
+    "doi": "10.3390/app15062896",
+    "year": 2025,
+    "topic_id": 1,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 36,
+    "title": "The interactive effect of Avatar visual fidelity and behavioral fidelity in the collaborative virtual reality environment on the perception of social interaction",
+    "doi": "",
+    "year": 2006,
+    "topic_id": 6,
+    "topic_prob": 0.7849
+  },
+  {
+    "doc_id": 37,
+    "title": "Classifying interpersonal interaction in virtual reality: sensor-based analysis of human interaction with pre-recorded avatars",
+    "doi": "10.3389/frvir.2025.1623764",
+    "year": 2025,
+    "topic_id": 1,
+    "topic_prob": 0.7786
+  },
+  {
+    "doc_id": 38,
+    "title": "Comparing virtual reality with computer monitors as rating environments for affective dimensions in social interactions",
+    "doi": "10.1109/ACII.2017.8273640",
+    "year": 2017,
+    "topic_id": 1,
+    "topic_prob": 0.7391
+  },
+  {
+    "doc_id": 39,
+    "title": "Body space in social interactions: A comparison of reaching and comfort distance in immersive virtual reality",
+    "doi": "10.1371/journal.pone.0111511",
+    "year": 2014,
+    "topic_id": 2,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 40,
+    "title": "The adoption of virtual reality devices: The technology acceptance model integrating enjoyment, social interaction, and strength of the social ties",
+    "doi": "10.1016/j.tele.2018.12.006",
+    "year": 2019,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 41,
+    "title": "The association between social rewards and anxiety: Links from neurophysiological analysis in virtual reality and social interaction game",
+    "doi": "10.1016/j.neuroimage.2024.120846",
+    "year": 2024,
+    "topic_id": 2,
+    "topic_prob": 0.9293
+  },
+  {
+    "doc_id": 42,
+    "title": "Augmented and Virtual Reality in the Metaverse Context: The Impact on the Future of Work, Education, and Social Interaction",
+    "doi": "10.1007/978-3-031-57746-8_1",
+    "year": 2024,
+    "topic_id": 4,
+    "topic_prob": 0.4705
+  },
+  {
+    "doc_id": 43,
+    "title": "The Island of Play: Reflections on How to Design Multiuser VR to Promote Social Interaction",
+    "doi": "10.1007/978-3-031-05939-1_32",
+    "year": 2022,
+    "topic_id": 5,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 44,
+    "title": "Virtual Reality for Tacit Knowledge in Design Education: The Role of Social Interactions",
+    "doi": "10.4324/9781003475057-35",
+    "year": 2026,
+    "topic_id": 4,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 45,
+    "title": "The \u201cDecoding of social interactions in virtual reality\u201d tasks for autism spectrum people: Development of an intervention protocol and pilot testing",
+    "doi": "",
+    "year": 2018,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 46,
+    "title": "Gender expression and gender identity in virtual reality: avatars, role-adoption, and social interaction in VRChat",
+    "doi": "10.3389/frvir.2024.1305758",
+    "year": 2024,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 47,
+    "title": "Fighting alcohol craving using virtual reality: The role of social interaction",
+    "doi": "10.1109/VRW52623.2021.00054",
+    "year": 2021,
+    "topic_id": 11,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 48,
+    "title": "Experience of Adult Facilitators in a Virtual-Reality-Based Social Interaction Program for Children With Autism",
+    "doi": "10.1177/0022466913498773",
+    "year": 2015,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 49,
+    "title": "The impact of eye gaze on social interactions of females in virtual reality: The mediating role of the uncanniness of avatars and the moderating role of task type",
+    "doi": "10.1016/j.heliyon.2023.e20165",
+    "year": 2023,
+    "topic_id": 1,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 50,
+    "title": "Social interaction shapes and boosts second language learning: virtual reality can show us how",
+    "doi": "10.1038/s41539-025-00381-8",
+    "year": 2025,
+    "topic_id": 4,
+    "topic_prob": 0.399
+  },
+  {
+    "doc_id": 51,
+    "title": "Exploring Social Interactions for Live Performance in Virtual Reality",
+    "doi": "10.1145/3415264.3425466",
+    "year": 2020,
+    "topic_id": 12,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 52,
+    "title": "Toward affective social interaction in VR",
+    "doi": "10.1145/3097462",
+    "year": 2017,
+    "topic_id": 7,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 53,
+    "title": "Multimodal adaptive social interaction in virtual environment (MASI-VR) for children with Autism spectrum disorders (ASD)",
+    "doi": "10.1109/VR.2016.7504695",
+    "year": 2016,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 54,
+    "title": "Embodiment and Social Interactions in a Class Virtual Reality",
+    "doi": "",
+    "year": 2021,
+    "topic_id": 4,
+    "topic_prob": 0.5904
+  },
+  {
+    "doc_id": 55,
+    "title": "Improving Fidelity of\u00a0Close Social Interaction Animations in\u00a0Social VR with\u00a0a\u00a0Machine Learning-Based Refinement Framework",
+    "doi": "10.1007/978-981-95-0100-7_13",
+    "year": 2026,
+    "topic_id": 1,
+    "topic_prob": 0.7786
+  },
+  {
+    "doc_id": 56,
+    "title": "Effects of social interaction on virtual reality cybersickness",
+    "doi": "10.1016/j.displa.2023.102512",
+    "year": 2023,
+    "topic_id": 11,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 57,
+    "title": "Social Presence as a Moderator of the Effect of Agent Behavior on Emotional Experience in Social Interactions in Virtual Reality",
+    "doi": "10.3389/frvir.2021.741138",
+    "year": 2021,
+    "topic_id": 2,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 58,
+    "title": "An open-source closed-loop Virtual Reality system to investigate social interactions and collective behavior in fish",
+    "doi": "10.1371/journal.pone.0339909",
+    "year": 2026,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 59,
+    "title": "CollabVR: A Social VR Architecture for Social Interaction Between College Students",
+    "doi": "10.1007/978-3-031-63616-5_9",
+    "year": 2024,
+    "topic_id": 4,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 60,
+    "title": "Exploring Influence of Social Anxiety on Embodied Face Perception during Affective Social Interactions in VR",
+    "doi": "10.1145/3652988.3673952",
+    "year": 2024,
+    "topic_id": 7,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 61,
+    "title": "Inducing Virtual Reality to Improve Human-Virtual Social Interaction and Learning Perceptions",
+    "doi": "10.1007/978-3-031-51716-7_3",
+    "year": 2023,
+    "topic_id": 4,
+    "topic_prob": 0.872
+  },
+  {
+    "doc_id": 62,
+    "title": "VIRTUAL REALITY IN LEISURE: ITS IMPACT ON SOCIAL INTERACTION AND PHYSICAL ACTIVITY AMONG SAUDI UNIVERSITY STUDENTS",
+    "doi": "10.51847/8OnKjAVQFX",
+    "year": 2023,
+    "topic_id": 4,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 63,
+    "title": "Contribution of Virtual Reality to the Reproduction of Social Interaction Characteristics in Neuropsychology: A Systematic Review of the Literature",
+    "doi": "10.1162/pres_a_00424",
+    "year": 2024,
+    "topic_id": 10,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 64,
+    "title": "Social Interaction and Pain Threshold in Virtual Reality",
+    "doi": "10.1089/cyber.2020.0055",
+    "year": 2020,
+    "topic_id": 11,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 65,
+    "title": "Studying the influence of single social interactions on approach and avoidance behavior: A multimodal investigation in immersive virtual reality",
+    "doi": "10.3758/s13428-025-02627-0",
+    "year": 2025,
+    "topic_id": 2,
+    "topic_prob": 0.7823
+  },
+  {
+    "doc_id": 66,
+    "title": "EmojiChat: Toward Designing Emoji-Driven Social Interaction in VR Museums",
+    "doi": "10.1080/10447318.2024.2387902",
+    "year": 2025,
+    "topic_id": 5,
+    "topic_prob": 0.5624
+  },
+  {
+    "doc_id": 67,
+    "title": "The Belated Guest: Exploring the Design Space for Transforming Asynchronous Social Interactions in Virtual Reality",
+    "doi": "10.1109/VRW58643.2023.00151",
+    "year": 2023,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 68,
+    "title": "Embodying VR avatars as a dynamic (para)social interaction: Towards a future research agenda",
+    "doi": "10.1108/978-1-83549-376-220251018",
+    "year": 2025,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 69,
+    "title": "Social Virtual Reality (Social VR): How Liquid Consumption Can Facilitate Social Interactions",
+    "doi": "10.1007/978-3-031-67437-2_28",
+    "year": 2024,
+    "topic_id": 5,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 70,
+    "title": "Design of Nonverbal Symbolic Visual Cues for VR Social Interaction Based on AI Semantic Recognition",
+    "doi": "10.1145/3757374.3771487",
+    "year": 2025,
+    "topic_id": 7,
+    "topic_prob": 0.7221
+  },
+  {
+    "doc_id": 71,
+    "title": "Haptics in social interaction with agents and avatars in virtual reality: a systematic review",
+    "doi": "10.1007/s10055-024-01060-6",
+    "year": 2024,
+    "topic_id": 2,
+    "topic_prob": 0.9133
+  },
+  {
+    "doc_id": 72,
+    "title": "Correction: An open-source closed-loop Virtual Reality system to investigate social interactions and collective behavior in fish (PLOS ONE (2026) 21:1 (e0339909) DOI: 10.1371/journal.pone.0339909)",
+    "doi": "10.1371/journal.pone.0343509",
+    "year": 2026,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 73,
+    "title": "Avatar realism and social interaction quality in virtual reality",
+    "doi": "10.1109/VR.2016.7504761",
+    "year": 2016,
+    "topic_id": 1,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 74,
+    "title": "Multimodal interfaces and sensory fusion in VR for social interactions",
+    "doi": "10.1007/978-3-319-07458-0_2",
+    "year": 2014,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 75,
+    "title": "Virtual-reality-based social interaction training for children with high-functioning autism",
+    "doi": "10.1080/00220671.2013.832999",
+    "year": 2013,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 76,
+    "title": "Creating Non-Visual Non-Verbal Social Interactions in Virtual Reality",
+    "doi": "10.3390/virtualworlds4020025",
+    "year": 2025,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 77,
+    "title": "Toward VR in VR: Assessing Engagement and Social Interaction in a Virtual Conference",
+    "doi": "10.1109/ACCESS.2022.3233312",
+    "year": 2023,
+    "topic_id": 6,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 78,
+    "title": "Designing for Heterogeneous Cross-Device Collaboration and Social Interaction in Virtual Reality",
+    "doi": "10.1145/3441000.3441070",
+    "year": 2020,
+    "topic_id": 12,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 79,
+    "title": "Virtual Reality as Social Interaction Medium Between COVID-19 Pandemic and Endemic Situations",
+    "doi": "10.1201/9781003331674-9",
+    "year": 2024,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 80,
+    "title": "Creating Virtual Reality Scenarios for Pedestrian Experiments Focusing on Social Interactions",
+    "doi": "",
+    "year": 2024,
+    "topic_id": 9,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 81,
+    "title": "Virtual reality aggression assessment with social interaction: early evidence for validity from two pilot studies",
+    "doi": "10.3389/fpsyg.2025.1585609",
+    "year": 2025,
+    "topic_id": 9,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 82,
+    "title": "Impact of Cognitive Effort, Social Interaction, Enjoyment of Learning, and Immersive Presence on Academic Achievement With Virtual Reality",
+    "doi": "10.1109/ICIET66371.2025.11046243",
+    "year": 2025,
+    "topic_id": 4,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 83,
+    "title": "Understanding Social VR Streamers' Unique Challenges in Managing Cross-Reality Social Interactions Through Multi-dimensional VR Interfaces",
+    "doi": "10.1145/3715336.3735825",
+    "year": 2025,
+    "topic_id": 12,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 84,
+    "title": "An affect-sensitive social interaction paradigm utilizing virtual reality environments for autism intervention",
+    "doi": "10.1007/978-3-642-02580-8_77",
+    "year": 2009,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 85,
+    "title": "Expressiveness of real-time motion captured avatars influences perceived animation realism and perceived quality of social interaction in virtual reality",
+    "doi": "10.3389/frvir.2022.981400",
+    "year": 2022,
+    "topic_id": 1,
+    "topic_prob": 0.749
+  },
+  {
+    "doc_id": 86,
+    "title": "Virtual Reality Platform to Develop and Test Applications on Human-Robot Social Interaction",
+    "doi": "10.1109/LARS/SBR/WRE56824.2022.9996025",
+    "year": 2022,
+    "topic_id": 9,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 87,
+    "title": "Using Immersive Virtual Reality to Enhance Social Interaction Among Older Adults: A Cross-Site Investigation",
+    "doi": "10.1093/geroni/igad031",
+    "year": 2023,
+    "topic_id": 3,
+    "topic_prob": 0.7668
+  },
+  {
+    "doc_id": 88,
+    "title": "CollabVR: VR Testing for Increasing Social Interaction between College Students",
+    "doi": "10.3390/computers13020040",
+    "year": 2024,
+    "topic_id": 4,
+    "topic_prob": 0.6674
+  },
+  {
+    "doc_id": 89,
+    "title": "An asymmetric VR system to configure and practice low-vision aids for social interactions in clinical settings",
+    "doi": "10.1109/VRW66409.2025.00241",
+    "year": 2025,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 90,
+    "title": "Exploring the Social Interaction of Autistic Students of Elementary and Junior High School Students Through the Teaching of Social Skills and Learning Process in Virtual Reality",
+    "doi": "10.1007/s42979-021-00914-z",
+    "year": 2022,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 91,
+    "title": "Enabling accessibility features in enhanced VR environments for supporting spatial abilities and social interaction in elderly and MCI patients",
+    "doi": "10.4018/978-1-4666-8234-4.ch008",
+    "year": 2015,
+    "topic_id": 3,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 92,
+    "title": "Seeing Avatars during Social Interaction in VR May Enhance Inter-Brain Synchronization",
+    "doi": "10.1109/TVCG.2026.3671344",
+    "year": 2026,
+    "topic_id": 1,
+    "topic_prob": 0.7786
+  },
+  {
+    "doc_id": 93,
+    "title": "Exploring the Social Interaction of Autistic Students of Elementary and Junior High School Students through the Teaching of Social Skills in Virtual Reality",
+    "doi": "10.1109/Indo-TaiwanICAN48429.2020.9181323",
+    "year": 2020,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 94,
+    "title": "METAVERSE AS A PROMISE OF A BRIGHT FUTURE? SOCIAL INTERACTIONS IN A WORLD OF ISOLATION, MARCH 12, 2022, ONLINE WORKSHOP; 29TH IEEE CONFERENCE ON VIRTUAL REALITY + 3D USER INTERFACES",
+    "doi": "",
+    "year": 2023,
+    "topic_id": 8,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 95,
+    "title": "Creation of an immersive virtual reality environment for communication and social interaction: a pilot study in students with autism spectrum disorders; [Creaci\u00f3n de un entorno de realidad virtual inmersiva para la comunicaci\u00f3n e interacci\u00f3n social: estudio piloto en alumnado con trastorno del espectro autista]",
+    "doi": "10.6018/RED.539141",
+    "year": 2023,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 96,
+    "title": "Exploring the Combination of Serious Games, Social Interactions, and Virtual Reality in Adolescents with ASD: A Scoping Review",
+    "doi": "10.3390/technologies13020076",
+    "year": 2025,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 97,
+    "title": "Analysis of Key Design Criteria in The Application of Virtual Reality Technology Towards Social Interaction for The Elderly in China",
+    "doi": "10.24191/bej.v23i1.3716",
+    "year": 2026,
+    "topic_id": 3,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 98,
+    "title": "Designing a Multi-user VR Social Activity Space for Social Interaction for People Living with Dementia",
+    "doi": "10.1007/978-3-031-44751-8_16",
+    "year": 2023,
+    "topic_id": 3,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 99,
+    "title": "Playing with Embodied Social Interaction: A Thematic Review of Experiments on Social Aspects in Gameful Virtual Reality",
+    "doi": "10.1093/iwc/iwac012",
+    "year": 2021,
+    "topic_id": 5,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 100,
+    "title": "Psychophysiological response in virtual reality based human-computer interaction in adolescents with ASD",
+    "doi": "10.2316/P.2012.772-007",
+    "year": 2012,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 101,
+    "title": "Development Prospects and Current Status of Deep Learning Neural Network-based Facial Capture in the Metaverse Field",
+    "doi": "10.1002/sdtp.17183",
+    "year": 2024,
+    "topic_id": 7,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 102,
+    "title": "Effects of Hybrid and Synthetic Social Gaze in Avatar-Mediated Interactions",
+    "doi": "10.1109/ISMAR-Adjunct.2018.00044",
+    "year": 2018,
+    "topic_id": 1,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 103,
+    "title": "Virtual Reality Reminiscence Therapy in Dementia Care: Scoping Review of Research",
+    "doi": "10.2196/73539",
+    "year": 2025,
+    "topic_id": 3,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 104,
+    "title": "Psychological Underpinnings of Trust and Privacy Perception in the Medical Metaverse",
+    "doi": "10.1089/jmxr.2023.0010",
+    "year": 2024,
+    "topic_id": 8,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 105,
+    "title": "Immersive virtual reality and ocular tracking for brain mapping during awake surgery: Prospective evaluation study",
+    "doi": "10.2196/24373",
+    "year": 2021,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 106,
+    "title": "Digital interventions for enhancing communication and collaboration in children with autism spectrum disorder: An integrative review",
+    "doi": "10.1016/j.reia.2025.202625",
+    "year": 2025,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 107,
+    "title": "The Metaverse as a virtual form of data-driven smart urbanism: platformization and its underlying processes, institutional dimensions, and disruptive impacts",
+    "doi": "10.1007/s43762-022-00051-0",
+    "year": 2022,
+    "topic_id": 8,
+    "topic_prob": 0.7479
+  },
+  {
+    "doc_id": 108,
+    "title": "Promoting Self-Efficacy of Individuals With Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: Mixed Methods Study",
+    "doi": "10.2196/52157",
+    "year": 2024,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 109,
+    "title": "Mapping social interactions: The science of proxemics",
+    "doi": "10.1007/7854_2015_431",
+    "year": 2016,
+    "topic_id": 10,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 110,
+    "title": "Influence of household virtual reality products on emotions during the COVID-19 pandemic: a semantic network analysis",
+    "doi": "10.1057/s41599-025-04653-x",
+    "year": 2025,
+    "topic_id": 6,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 111,
+    "title": "Avatar Anthropomorphism and Metaverse Marketing Adoption: A Social Cognitive Perspective",
+    "doi": "10.1177/08944393261421111",
+    "year": 2026,
+    "topic_id": 8,
+    "topic_prob": 0.6381
+  },
+  {
+    "doc_id": 112,
+    "title": "Impact of Augmented Engagement Model for Collaborative Avatars on a Collaborative Task in Virtual Reality",
+    "doi": "10.1145/3656650.3656684",
+    "year": 2024,
+    "topic_id": 6,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 113,
+    "title": "Interactive environments for music and multimedia",
+    "doi": "10.1007/s005300050109",
+    "year": 1999,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 114,
+    "title": "Lie Detection in Social VR Using Multimodal Data",
+    "doi": "10.1109/VRW66409.2025.00283",
+    "year": 2025,
+    "topic_id": 7,
+    "topic_prob": 0.8158
+  },
+  {
+    "doc_id": 115,
+    "title": "Immersive Multiplayer VR: Unreal Engine\u2019s Strengths, Limitations, and Future Prospects",
+    "doi": "10.1109/ACCESS.2025.3570166",
+    "year": 2025,
+    "topic_id": 12,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 116,
+    "title": "24th IFIP TC 14 International Conference on Entertainment Computing, ICEC 2025",
+    "doi": "",
+    "year": 2025,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 117,
+    "title": "Metaverse-based social skills training programme for children with autism spectrum disorder to improve social interaction ability: an open-label, single-centre, randomised controlled pilot trial",
+    "doi": "10.1016/j.eclinm.2023.102072",
+    "year": 2023,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 118,
+    "title": "Applications and Future Trends of Agents in the Metaverse",
+    "doi": "10.1002/sdtp.18971",
+    "year": 2025,
+    "topic_id": 8,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 119,
+    "title": "Virtual reality in pediatric psychology",
+    "doi": "10.1542/peds.2016-1758I",
+    "year": 2017,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 120,
+    "title": "Advantages of eye-gaze over head-gaze-based selection in virtual and augmented reality under varying field of views",
+    "doi": "10.1145/3206343.3206349",
+    "year": 2018,
+    "topic_id": 6,
+    "topic_prob": 0.8452
+  },
+  {
+    "doc_id": 121,
+    "title": "Design of a Desktop Virtual Reality-Based Collaborative Activities Simulator (ViRCAS) to Support Teamwork in Workplace Settings for Autistic Adults",
+    "doi": "10.1109/TNSRE.2023.3271139",
+    "year": 2023,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 122,
+    "title": "Evolution of Fashion as Play in the Digital Space",
+    "doi": "10.1080/17569370.2022.2149837",
+    "year": 2023,
+    "topic_id": 5,
+    "topic_prob": 0.9338
+  },
+  {
+    "doc_id": 123,
+    "title": "An Immersive Virtual Reality Room to Enhance Positive Affect and Engagement in Nursing Home Residents with Neurocognitive and Psychological Disorders: A Feasibility Study",
+    "doi": "10.3390/healthcare14050588",
+    "year": 2026,
+    "topic_id": 3,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 124,
+    "title": "The Role of Virtual Reality in Chronic Pain and Loneliness: Narrative Review",
+    "doi": "10.1089/jmedxr.2024.0063",
+    "year": 2025,
+    "topic_id": 11,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 125,
+    "title": "Enhancing the aging experience with VR360 technology",
+    "doi": "10.4017/GT.2024.23.S.979.OPP",
+    "year": 2024,
+    "topic_id": 3,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 126,
+    "title": "Interactive virtual reality training to improve socio-emotional functioning in adolescents with developmental language disorders: A feasibility study",
+    "doi": "10.1177/13591045231220694",
+    "year": 2024,
+    "topic_id": 0,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 127,
+    "title": "Avatars in the Metaverse: From Social Interaction to Collaborative Work and Beyond",
+    "doi": "",
+    "year": 2024,
+    "topic_id": 8,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 128,
+    "title": "Towards the understanding of consumer behavior in the metaverse: A systematic literature review using the PRISMA methodology",
+    "doi": "10.4018/978-1-6684-7029-9.ch001",
+    "year": 2023,
+    "topic_id": 8,
+    "topic_prob": 0.8576
+  },
+  {
+    "doc_id": 129,
+    "title": "FUNCTIONAL NEAR-INFRARED SPECTROSCOPY APPLICATIONS IN DEVELOPMENTAL COGNITIVE NEUROSCIENCE; [\u041f\u0420\u0418\u041c\u0415\u041d\u0415\u041d\u0418\u0415 \u0424\u0423\u041d\u041a\u0426\u0418\u041e\u041d\u0410\u041b\u042c\u041d\u041e\u0419 \u0421\u041f\u0415\u041a\u0422\u0420\u041e\u0421\u041a\u041e\u041f\u0418\u0418 \u0412 \u0411\u041b\u0418\u0416\u041d\u0415\u041c \u0418\u041d\u0424\u0420\u0410\u041a\u0420\u0410\u0421\u041d\u041e\u041c \u0414\u0418\u0410\u041f\u0410\u0417\u041e\u041d\u0415 \u0412 \u041a\u041e\u0413\u041d\u0418\u0422\u0418\u0412\u041d\u041e\u0419 \u041d\u0415\u0419\u0420\u041e\u041d\u0410\u0423\u041a\u0415 \u0420\u0410\u0417\u0412\u0418\u0422\u0418\u042f]",
+    "doi": "10.31857/S0044467721040092",
+    "year": 2021,
+    "topic_id": 10,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 130,
+    "title": "31st International Conference on Collaboration Technologies and Social Computing, CollabTech 2025",
+    "doi": "",
+    "year": 2026,
+    "topic_id": 4,
+    "topic_prob": 0.4535
+  },
+  {
+    "doc_id": 131,
+    "title": "A Review of Telepresence, Virtual Reality, and Augmented Reality Applied to Clinical Care",
+    "doi": "10.1007/s41347-020-00126-x",
+    "year": 2020,
+    "topic_id": 3,
+    "topic_prob": 0.4378
+  },
+  {
+    "doc_id": 132,
+    "title": "Developing conversational Virtual Humans for social emotion elicitation based on large language models",
+    "doi": "10.1016/j.eswa.2024.123261",
+    "year": 2024,
+    "topic_id": 7,
+    "topic_prob": 0.722
+  },
+  {
+    "doc_id": 133,
+    "title": "Digital Transformation in Nursing Education: A Systematic Review on Computer-Aided Nursing Education Pedagogies, Recent Advancements and Outlook on the Post-COVID-19 Era",
+    "doi": "10.1109/ACCESS.2023.3337669",
+    "year": 2023,
+    "topic_id": 3,
+    "topic_prob": 0.4378
+  },
+  {
+    "doc_id": 134,
+    "title": "A Survey of Facial Capture for Virtual Reality",
+    "doi": "10.1109/ACCESS.2021.3138200",
+    "year": 2022,
+    "topic_id": 7,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 135,
+    "title": "A Survey of Emotional Intelligence Applications in Immersive and Non-Immersive Technologies",
+    "doi": "10.1109/VRW66409.2025.00202",
+    "year": 2025,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 136,
+    "title": "Computer classes and games in virtual reality environment to reduce loneliness among students of an elderly reference center",
+    "doi": "10.1097/MD.0000000000005954",
+    "year": 2017,
+    "topic_id": 3,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 137,
+    "title": "Performance-driven facial animation: Basic research on human judgments of emotional state in facial avatars",
+    "doi": "10.1089/109493101750527033",
+    "year": 2001,
+    "topic_id": 7,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 138,
+    "title": "The metaverse beyond the hype: Interdisciplinary perspectives on applications, tools, techniques, opportunities, and challenges of the metaverse",
+    "doi": "10.1016/B978-0-443-24132-1.00013-2",
+    "year": 2024,
+    "topic_id": 8,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 139,
+    "title": "The mere presence of an attentive and emotionally responsive virtual character influences focus of attention and perceived stress",
+    "doi": "10.1016/j.ijhcs.2019.07.010",
+    "year": 2019,
+    "topic_id": 2,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 140,
+    "title": "Virtual Reality Mental Health Interventions: AR/VR Solutions for Well-being",
+    "doi": "10.1007/978-981-96-2952-7_1",
+    "year": 2025,
+    "topic_id": 3,
+    "topic_prob": 0.4378
+  },
+  {
+    "doc_id": 141,
+    "title": "Design of Customizable Gamified Augmented Reality Apps: Towards Embracing Active Learning",
+    "doi": "",
+    "year": 2021,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 142,
+    "title": "From physiological psychology to psychological physiology: Postnonclassical approach to ethnocultural phenomena",
+    "doi": "10.11621/pir.2015.0401",
+    "year": 2015,
+    "topic_id": 10,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 143,
+    "title": "Comparing behavior towards humans and virtual humans in a social dilemma",
+    "doi": "10.1007/978-3-319-21996-7_48",
+    "year": 2015,
+    "topic_id": 1,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 144,
+    "title": "Unveiling Emotions in Virtual Reality: Exploring Personal Narratives of US Veterans on VR Chat",
+    "doi": "10.1007/978-3-031-50192-0_7",
+    "year": 2024,
+    "topic_id": 6,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 145,
+    "title": "The effects of sharing awareness cues in collaborative mixed reality",
+    "doi": "10.3389/frobt.2019.00005",
+    "year": 2019,
+    "topic_id": 6,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 146,
+    "title": "Virtual Reality Social Platforms for Online Synchronous Learning in Higher Education: A Mixed-methods Explorative Research",
+    "doi": "",
+    "year": 2023,
+    "topic_id": 4,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 147,
+    "title": "Are You Empathizing with Me? Exploring External Expressions of Empathy in Interpersonal VR Communication",
+    "doi": "10.1109/ISMAR67309.2025.00143",
+    "year": 2025,
+    "topic_id": 7,
+    "topic_prob": 0.8531
+  },
+  {
+    "doc_id": 148,
+    "title": "Methodology for study of human-robot social interaction in dangerous situations",
+    "doi": "10.1145/2658861.2658871",
+    "year": 2014,
+    "topic_id": 9,
+    "topic_prob": 1.0
+  },
+  {
+    "doc_id": 149,
+    "title": "Mirror Dwellers in Social VR: Investigating Reasons and Perception of Mirror Watching",
+    "doi": "10.1145/3711033",
+    "year": 2025,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  },
+  {
+    "doc_id": 150,
+    "title": "A study of Generation Z's involvement in virtual reality",
+    "doi": "10.11621/pir.2017.0412",
+    "year": 2017,
+    "topic_id": -1,
+    "topic_prob": 0.0
+  }
+]

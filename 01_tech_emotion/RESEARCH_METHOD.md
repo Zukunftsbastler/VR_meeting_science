@@ -54,6 +54,14 @@ This section provides step-by-step instructions for an LLM agent to execute the 
 
 ### Phase 3 — Data Extraction
 
+#### abstract analysis
+
+Topic modeling explorative with Bertopic
+Visualizations
+Quality of clusters (silhouette score etc.)
+
+#### full text analysis
+
 For each paper in `screened_results.csv` where `Selection_Decision == "Included"`, extract the following structured fields. Record results in a new CSV or JSON file named `extracted_data.csv`.
 
 | Field | Description | Maps to RQ |

@@ -1,0 +1,703 @@
+{
+  "metadata": {
+    "round": 1,
+    "method": "backward_citation_analysis",
+    "date": "2026-04-08",
+    "performed_by": "LLM-assisted extraction from PDF reference sections",
+    "stream": "02_taxonomy_dimensions",
+    "source_papers_analysed": [
+      "Allen et al. (2014) — Understanding workplace meetings",
+      "Šlapáková Losová & Orel (2025) — VR as engagement driver",
+      "Bilbow (2002) — Commissive speech act use",
+      "Grabowski et al. (2024) — Group dynamics in the metaverse",
+      "Murugavel & Reiter-Palmon (2023) — Integrating workplace meetings and creativity",
+      "Wolf et al. (2023) — Making every meeting count",
+      "Cionea et al. (2021) — Dialogue orientations in workplace meetings",
+      "Santner-Wolfartsberger (2015) — Parties, persons, and one-at-a-time",
+      "Köhler et al. (2023) — Culture-driven scripts for meetings",
+      "Beck et al. (2025) — Toward a strategic perspective of meeting participation"
+    ],
+    "ic_ec_reference": "02_taxonomy_dimensions/Search_and_Selection_Methodology.md",
+    "notes": [
+      "Minimum inclusion threshold: IC1 must be satisfied PLUS at least one of IC2 or IC3.",
+      "Papers already in screened_results.csv are excluded from this list (no duplicates).",
+      "preliminary_decision values: 'include' = clearly meets threshold; 'flag' = uncertain, needs full-text check; 'exclude' = clearly fails.",
+      "scopus_search.query uses Scopus field codes: DOI(), TITLE(), AUTH(), PUBYEAR, SRCTITLE().",
+      "Recommended workflow: (1) run all 'include' DOI queries first; (2) run 'flag' queries and decide on full-text; (3) ignore 'exclude' entries."
+    ]
+  },
+
+  "candidates": [
+
+    {
+      "id": "SB001",
+      "title": "The key features of workplace meetings: Conceptualizing the why, how, and what of meetings at work",
+      "authors": "Allen, J.A.; Lehmann-Willenbrock, N.",
+      "year": 2023,
+      "doi": "10.1177/20413866221129231",
+      "venue": "Organizational Psychology Review",
+      "volume_issue": "13(4), 355–378",
+      "cited_in": ["Grabowski2024"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Directly addresses the key structural features (why, how, what) of workplace meetings as its primary subject. Highly relevant to facet codebook construction (Step 5.2).",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/20413866221129231\")"
+      }
+    },
+
+    {
+      "id": "SB002",
+      "title": "Meeting talk: An introduction",
+      "authors": "Asmuß, B.; Svennevig, J.",
+      "year": 2009,
+      "doi": "10.1177/0021943608326761",
+      "venue": "Journal of Business Communication",
+      "volume_issue": "46(1), 3–22",
+      "cited_in": ["Cionea2021", "Santner2015", "Koehler2023"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Foundational overview of workplace meeting talk as a structured communicative form. Cited by three source papers; directly supports dimension extraction.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/0021943608326761\")"
+      }
+    },
+
+    {
+      "id": "SB003",
+      "title": "Meetings matter: Effects of team meetings on team and organizational success",
+      "authors": "Kauffeld, S.; Lehmann-Willenbrock, N.",
+      "year": 2012,
+      "doi": "10.1177/1046496411429599",
+      "venue": "Small Group Research",
+      "volume_issue": "43(2), 130–158",
+      "cited_in": ["Cionea2021"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Examines meeting characteristics as predictors of team/organizational outcomes. Directly relevant to effectiveness dimensions (IC4) and structural analysis (IC3).",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/1046496411429599\")"
+      }
+    },
+
+    {
+      "id": "SB004",
+      "title": "Meeting design characteristics and attendee perceptions of staff/team meeting quality",
+      "authors": "Cohen, M.; Rogelberg, S.; Allen, J.; Luong, A.",
+      "year": 2011,
+      "doi": "10.1037/a0021549",
+      "venue": "Group Dynamics: Theory, Research, and Practice",
+      "volume_issue": "15(1), 90–104",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Examines specific meeting design characteristics (IC3) and their link to quality perceptions (IC4). Directly feeds facet codebook.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1037/a0021549\")"
+      }
+    },
+
+    {
+      "id": "SB005",
+      "title": "Perceived meeting effectiveness: The role of design characteristics",
+      "authors": "Leach, D.J.; Rogelberg, S.G.; Warr, P.B.; Burnfield, J.L.",
+      "year": 2009,
+      "doi": "10.1007/s10869-009-9092-6",
+      "venue": "Journal of Business and Psychology",
+      "volume_issue": "24, 65–76",
+      "cited_in": ["Cionea2021"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Operationalizes meeting design characteristics empirically. Complements SB004 and directly supports IC3/IC4.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1007/s10869-009-9092-6\")"
+      }
+    },
+
+    {
+      "id": "SB006",
+      "title": "\"Not another meeting!\" Are meeting time demands related to employee well-being?",
+      "authors": "Rogelberg, S.G.; Leach, D.J.; Warr, P.B.; Burnfield, J.L.",
+      "year": 2006,
+      "doi": "10.1037/0021-9010.91.1.83",
+      "venue": "Journal of Applied Psychology",
+      "volume_issue": "91(1), 83–96",
+      "cited_in": ["Allen2014", "Wolf2023"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Empirical study on meeting demands and well-being. IC1 and IC4 satisfied. Foundational meeting science reference cited by multiple source papers.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1037/0021-9010.91.1.83\")"
+      }
+    },
+
+    {
+      "id": "SB007",
+      "title": "Organizational meetings: Formats and informational requirements",
+      "authors": "Volkema, R.J.; Niederman, F.",
+      "year": 1995,
+      "doi": null,
+      "venue": "Small Group Research",
+      "volume_issue": "26, 3–24",
+      "cited_in": ["Allen2014"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC2", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Directly addresses meeting formats (IC2 — a classification scheme) and informational requirements (IC3). Title contains IC1 keyword 'organizational meetings'. High relevance to faceted taxonomy.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"Organizational meetings\") AND AUTH(Volkema) AND PUBYEAR = 1995"
+      }
+    },
+
+    {
+      "id": "SB008",
+      "title": "The meeting as a neglected social form in organizational studies",
+      "authors": "Schwartzman, H.B.",
+      "year": 1986,
+      "doi": null,
+      "venue": "Research in Organizational Behavior",
+      "volume_issue": "8, 233–258",
+      "cited_in": ["Allen2014"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Seminal theoretical paper conceptualizing meetings as a distinct organizational form. IC1 and IC3 satisfied. Foundational for any meeting taxonomy.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"meeting as a neglected social form\") AND AUTH(Schwartzman)"
+      }
+    },
+
+    {
+      "id": "SB009",
+      "title": "Meeting analysis: Findings from research and practice",
+      "authors": "Romano, N.C., Jr.; Nunamaker, J.F., Jr.",
+      "year": 2001,
+      "doi": null,
+      "venue": "34th Annual Hawaii International Conference on System Sciences",
+      "volume_issue": "Proceedings",
+      "cited_in": ["Allen2014"],
+      "preliminary_decision": "flag",
+      "criteria_met": ["IC1", "IC2", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Comprehensive review of meeting research covering formats, purposes, and findings. IC1, IC2, IC3 clearly met. FLAGGED due to EC5 risk: conference proceedings — check if full research paper (accepted at peer-reviewed HICSS) or just an index entry.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"Meeting analysis\") AND AUTH(Romano) AND PUBYEAR = 2001"
+      }
+    },
+
+    {
+      "id": "SB010",
+      "title": "Genres of organizational communication: A structurational approach to studying communication and media",
+      "authors": "Yates, J.; Orlikowski, W.J.",
+      "year": 1992,
+      "doi": null,
+      "venue": "Academy of Management Review",
+      "volume_issue": "17, 299–325",
+      "cited_in": ["Allen2014"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Proposes genre-based classification of organizational communication forms, including meetings. IC1 and IC3 satisfied. Theoretical foundation for meeting type differentiation.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"Genres of organizational communication\") AND AUTH(Yates) AND PUBYEAR = 1992"
+      }
+    },
+
+    {
+      "id": "SB011",
+      "title": "The meeting genre across cultures: Insights from three German-American collaborations",
+      "authors": "Köhler, T.; Cramton, C.D.; Hinds, P.J.",
+      "year": 2012,
+      "doi": "10.1177/1046496411429600",
+      "venue": "Small Group Research",
+      "volume_issue": "43(2), 159–185",
+      "cited_in": ["Koehler2023"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC2", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Applies the meeting-as-genre framework comparatively across cultures, revealing structural dimensions of meeting norms. IC1, IC2 (genre = classification framework), IC3 all satisfied.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/1046496411429600\")"
+      }
+    },
+
+    {
+      "id": "SB012",
+      "title": "Meeting effectiveness and task performance: meeting size matters",
+      "authors": "Allen, J.A.; Tong, J.; Landowski, N.",
+      "year": 2021,
+      "doi": "10.1108/jmd-12-2019-0510",
+      "venue": "Journal of Management Development",
+      "volume_issue": "40(5), 339–351",
+      "cited_in": ["Grabowski2024"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Examines group size as a structural meeting dimension (IC3) linked to effectiveness (IC4). Size is a candidate facet for the taxonomy.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1108/jmd-12-2019-0510\")"
+      }
+    },
+
+    {
+      "id": "SB013",
+      "title": "Let's get this meeting started: Meeting lateness and actual meeting outcomes",
+      "authors": "Allen, J.A.; Lehmann-Willenbrock, N.; Rogelberg, S.G.",
+      "year": 2018,
+      "doi": "10.1002/job.2276",
+      "venue": "Journal of Organizational Behavior",
+      "volume_issue": "39(8), 1008–1021",
+      "cited_in": ["Grabowski2024", "Murugavel2023", "Koehler2023", "Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Empirical study on meeting process dimension (lateness) and outcomes. IC1 and IC4 satisfied. High citation count across source papers.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1002/job.2276\")"
+      }
+    },
+
+    {
+      "id": "SB014",
+      "title": "Manager-led group meetings: A context for promoting employee engagement",
+      "authors": "Allen, J.A.; Rogelberg, S.",
+      "year": 2013,
+      "doi": "10.1177/1059601113503040",
+      "venue": "Group & Organization Management",
+      "volume_issue": "38(5), 543–569",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Addresses meeting leadership structure (IC3: leader-led vs. other) and meeting engagement as effectiveness dimension (IC4).",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/1059601113503040\")"
+      }
+    },
+
+    {
+      "id": "SB015",
+      "title": "The entitativity underlying meetings: Meetings as key in the lifecycle of effective workgroups",
+      "authors": "Blanchard, A.L.; Allen, J.A.",
+      "year": 2023,
+      "doi": "10.1177/20413866221101341",
+      "venue": "Organizational Psychology Review",
+      "volume_issue": "13(4), 458–477",
+      "cited_in": ["Grabowski2024"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Conceptualizes meetings in relation to group cohesion and effectiveness. IC1 and IC4 satisfied; group configuration (IC3) is a candidate facet.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/20413866221101341\")"
+      }
+    },
+
+    {
+      "id": "SB016",
+      "title": "Business meetings in the metaverse: Stakeholder views evolve",
+      "authors": "Besson, M.; Gauttier, S.",
+      "year": 2024,
+      "doi": "10.1108/jbs-02-2023-0031",
+      "venue": "Journal of Business Strategy",
+      "volume_issue": "45(3), 178–189",
+      "cited_in": ["Grabowski2024"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Addresses business meetings in VR/metaverse context (IC1, IC4). Directly relevant to VR suitability dimension (RQ4).",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1108/jbs-02-2023-0031\")"
+      }
+    },
+
+    {
+      "id": "SB017",
+      "title": "Perceiving strategic meeting interaction",
+      "authors": "Beck, S.J.; Keyton, J.",
+      "year": 2009,
+      "doi": "10.1177/1046496408330084",
+      "venue": "Small Group Research",
+      "volume_issue": "40(2), 223–246",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Develops a framework for strategic interaction types in meetings (IC3). Relevant to the interaction-type facet of the taxonomy.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/1046496408330084\")"
+      }
+    },
+
+    {
+      "id": "SB018",
+      "title": "Public meeting facilitation: A naïve theory analysis of crisis meeting interaction",
+      "authors": "Beck, S.J.; Littlefield, R.S.; Weber, A.J.",
+      "year": 2012,
+      "doi": "10.1177/1046496411430531",
+      "venue": "Small Group Research",
+      "volume_issue": "43(2), 211–235",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Crisis meeting as a distinct meeting type with specific structural characteristics (IC3) and facilitation requirements (IC4). Adds a meeting type to RQ3 matrix.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/1046496411430531\")"
+      }
+    },
+
+    {
+      "id": "SB019",
+      "title": "Virtual team meetings: An analysis of communication and context",
+      "authors": "Anderson, A.H.; McEwan, R.; Bal, J.; Carletta, J.",
+      "year": 2007,
+      "doi": "10.1016/j.chb.2007.01.001",
+      "venue": "Computers in Human Behavior",
+      "volume_issue": "23(5), 2558–2580",
+      "cited_in": ["Slapakova2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Analyzes communication patterns and contextual factors in virtual meetings (IC1, IC3). Directly relevant to the modality/medium facet and VR suitability (RQ4).",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1016/j.chb.2007.01.001\")"
+      }
+    },
+
+    {
+      "id": "SB020",
+      "title": "Putting the 'group' in group meetings: Entitativity in face-to-face and online meetings",
+      "authors": "Blanchard, A.L.; McBride, A.",
+      "year": 2020,
+      "doi": "10.1108/s1534-085620200000020004",
+      "venue": "Research on Managing Groups and Teams",
+      "volume_issue": "pp. 71–92",
+      "cited_in": ["Slapakova2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Examines meeting format differences (face-to-face vs. online) and group cohesion dimensions (IC3). The FTF vs. virtual modality is a key facet candidate.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1108/s1534-085620200000020004\")"
+      }
+    },
+
+    {
+      "id": "SB021",
+      "title": "Virtual work meetings during the COVID-19 pandemic: The good, bad, and ugly",
+      "authors": "Karl, K.A.; Peluchette, J.V.; Aghakhani, N.",
+      "year": 2022,
+      "doi": "10.1177/10464964211015286",
+      "venue": "Small Group Research",
+      "volume_issue": "53(3), 343–365",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Empirical analysis of virtual meeting characteristics and outcomes during COVID-19. IC1, IC3 (meeting format/modality), IC4 all satisfied. Relevant to modality facet.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/10464964211015286\")"
+      }
+    },
+
+    {
+      "id": "SB022",
+      "title": "Committee management: Guidelines from social science research",
+      "authors": "Filley, A.C.",
+      "year": 1970,
+      "doi": "10.2307/41164257",
+      "venue": "California Management Review",
+      "volume_issue": "13(1), 13–21",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Early empirical-theoretical synthesis on committee (meeting) management guidelines and structural factors. IC1 and IC3 satisfied. Foundational reference.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.2307/41164257\")"
+      }
+    },
+
+    {
+      "id": "SB023",
+      "title": "Our love/hate relationship with meetings: Relating good and bad meeting behaviors to meeting outcomes, engagement, and exhaustion",
+      "authors": "Lehmann-Willenbrock, N.; Allen, J.A.; Belyeu, D.",
+      "year": 2016,
+      "doi": null,
+      "venue": "Management Research Review",
+      "volume_issue": "39(10)",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Examines behavioral meeting characteristics (IC3) and their links to engagement and exhaustion (IC4). Behavioral dimension is a candidate facet.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"love hate relationship with meetings\") AND AUTH(Lehmann-Willenbrock) AND PUBYEAR = 2016"
+      }
+    },
+
+    {
+      "id": "SB024",
+      "title": "Linking pre-meeting communication to meeting effectiveness",
+      "authors": "Allen, J.A.; Lehmann-Willenbrock, N.; Landowski, N.",
+      "year": 2014,
+      "doi": "10.1108/JMP-09-2012-0265",
+      "venue": "Journal of Managerial Psychology",
+      "volume_issue": "29(8), 1064–1081",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC4", "IC5"],
+      "criteria_failed": [],
+      "justification": "Pre-meeting structure as a temporal meeting dimension (IC3) linked to effectiveness (IC4). Temporal structure is a candidate facet.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1108/JMP-09-2012-0265\")"
+      }
+    },
+
+    {
+      "id": "SB025",
+      "title": "Temporal coordination through communication: Using genres in a virtual start-up organization",
+      "authors": "Im, H.-G.; Yates, J.; Orlikowski, W.",
+      "year": 2005,
+      "doi": "10.1108/09593840510601496",
+      "venue": "Information Technology & People",
+      "volume_issue": "18(2), 89–119",
+      "cited_in": ["Koehler2023"],
+      "preliminary_decision": "flag",
+      "criteria_met": ["IC1", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Examines communication genres in a virtual organization context (IC3 for genre as classification). IC1 is partial — organizational communication broadly, with meetings as one form. FLAGGED: check whether meetings are a primary focus or incidental context.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1108/09593840510601496\")"
+      }
+    },
+
+    {
+      "id": "SB026",
+      "title": "The science and fiction of meetings",
+      "authors": "Rogelberg, S.G.; Scott, C.; Kello, J.",
+      "year": 2007,
+      "doi": null,
+      "venue": "MIT Sloan Management Review",
+      "volume_issue": "48, 18–21",
+      "cited_in": ["Allen2014"],
+      "preliminary_decision": "flag",
+      "criteria_met": ["IC1", "IC4", "IC5"],
+      "criteria_failed": ["EC5"],
+      "justification": "Addresses meeting science broadly (IC1, IC4). FLAGGED for EC5: MIT Sloan Management Review is a practitioner-oriented publication without formal peer review. Verify in Scopus whether it is indexed as a peer-reviewed source.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"science and fiction of meetings\") AND AUTH(Rogelberg) AND PUBYEAR = 2007"
+      }
+    },
+
+    {
+      "id": "SB027",
+      "title": "In conference",
+      "authors": "Bales, R.F.",
+      "year": 1954,
+      "doi": null,
+      "venue": "Harvard Business Review",
+      "volume_issue": "32(2), 44–50",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "flag",
+      "criteria_met": ["IC1", "IC3", "IC5"],
+      "criteria_failed": ["EC5"],
+      "justification": "Foundational early paper on group interaction in conferences/meetings (IC1, IC3). FLAGGED for EC5: Harvard Business Review is a practitioner publication. Also very old (1954) — likely not indexable in Scopus. Verify.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"In conference\") AND AUTH(Bales) AND PUBYEAR = 1954"
+      }
+    },
+
+    {
+      "id": "SB028",
+      "title": "How to run a meeting",
+      "authors": "Jay, A.",
+      "year": 1976,
+      "doi": null,
+      "venue": "Harvard Business Review",
+      "volume_issue": "54(2), 43–57",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "flag",
+      "criteria_met": ["IC1", "IC4", "IC5"],
+      "criteria_failed": ["EC5"],
+      "justification": "Classic practitioner guide on meeting facilitation and structure (IC1, IC4). FLAGGED for EC5: HBR is not peer-reviewed. Likely not in Scopus; check for citations to it rather than indexing.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"How to run a meeting\") AND AUTH(Jay) AND PUBYEAR = 1976"
+      }
+    },
+
+    {
+      "id": "SB029",
+      "title": "The science of workplace meetings: Integrating findings, building new theoretical angles, and embracing cross-disciplinary research",
+      "authors": "Allen, J.A.; Lehmann-Willenbrock, N.",
+      "year": 2022,
+      "doi": "10.1177/20413866221122896",
+      "venue": "Organizational Psychology Review",
+      "volume_issue": "13(4), 351–354",
+      "cited_in": ["Beck2025"],
+      "preliminary_decision": "flag",
+      "criteria_met": ["IC1", "IC4", "IC5"],
+      "criteria_failed": ["EC5"],
+      "justification": "Integrative overview of meeting science (IC1, IC4). FLAGGED for EC5: the volume/page range suggests this may be an editorial introduction to a special issue rather than an original research article. Verify in Scopus — if it is an editorial preface, exclude.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/20413866221122896\")"
+      }
+    },
+
+    {
+      "id": "SB030",
+      "title": "Meetings across cultures: Cultural differences in meeting expectations and processes",
+      "authors": "Köhler, T.; Gölz, M.",
+      "year": 2015,
+      "doi": null,
+      "venue": "The Cambridge Handbook of Meeting Science",
+      "volume_issue": "pp. 119–149. Cambridge University Press.",
+      "cited_in": ["Koehler2023"],
+      "preliminary_decision": "flag",
+      "criteria_met": ["IC1", "IC3", "IC5"],
+      "criteria_failed": ["EC5"],
+      "justification": "Examines cross-cultural meeting structural differences (IC1, IC3). FLAGGED for EC5: book chapter rather than peer-reviewed journal article. Likely not indexed in Scopus. Useful as grey literature supplement per RESEARCH_METHOD.md.",
+      "scopus_search": {
+        "method": "title_author",
+        "query": "TITLE(\"Meetings across cultures\") AND AUTH(Köhler) AND PUBYEAR = 2015"
+      }
+    },
+
+    {
+      "id": "SB031",
+      "title": "The Cambridge Handbook of Meeting Science",
+      "authors": "Allen, J.A.; Lehmann-Willenbrock, N.; Rogelberg, S.G. (Eds.)",
+      "year": 2015,
+      "doi": null,
+      "venue": "Cambridge University Press",
+      "volume_issue": "Book (full volume)",
+      "cited_in": ["Murugavel2023", "Wolf2023", "Koehler2023", "Beck2025"],
+      "preliminary_decision": "exclude",
+      "criteria_met": ["IC1", "IC5"],
+      "criteria_failed": ["EC5"],
+      "justification": "Entire edited volume — excluded by EC5 (book). Individual chapters may qualify (see SB030 and source papers citing chapters). Do not search as a single item; instead, identify and separately evaluate individual chapters listed in source paper reference sections.",
+      "scopus_search": null
+    },
+
+    {
+      "id": "SB032",
+      "title": "Cognitive organization and identity maintenance in multicultural teams: A discourse analysis of decision-making meetings",
+      "authors": "Aritz, J.; Walker, R.C.",
+      "year": 2010,
+      "doi": "10.1177/0021946309340669",
+      "venue": "Journal of Business Communication",
+      "volume_issue": "47(1), 20–41",
+      "cited_in": ["Koehler2023"],
+      "preliminary_decision": "include",
+      "criteria_met": ["IC1", "IC3", "IC5"],
+      "criteria_failed": [],
+      "justification": "Discourse analysis of decision-making meetings (IC1). Examines cognitive and identity dimensions in meetings (IC3). 'Decision-making' is a key meeting type for RQ3 matrix.",
+      "scopus_search": {
+        "method": "doi",
+        "query": "DOI(\"10.1177/0021946309340669\")"
+      }
+    },
+
+    {
+      "id": "SB033",
+      "title": "Bales' IPA categories and meeting talk: Interaction process analysis revisited for the study of workplace meetings",
+      "authors": "Bales, R.F.",
+      "year": 1950,
+      "doi": null,
+      "venue": "Addison-Wesley (book)",
+      "volume_issue": "Interaction Process Analysis: A Method for the Study of Small Groups",
+      "cited_in": ["Slapakova2025"],
+      "preliminary_decision": "exclude",
+      "criteria_met": [],
+      "criteria_failed": ["IC1", "EC5"],
+      "justification": "General small groups methodology book. IC1 fails: not primarily about professional workplace meetings. EC5: book. Exclude.",
+      "scopus_search": null
+    },
+
+    {
+      "id": "SB034",
+      "title": "Virtual teams: Effects of technological mediation on team performance",
+      "authors": "Driskell, J.; Radtke, P.; Salas, E.",
+      "year": 2003,
+      "doi": "10.1037/1089-2699.7.4.297",
+      "venue": "Group Dynamics: Theory Research and Practice",
+      "volume_issue": "7(4), 297–323",
+      "cited_in": ["Slapakova2025"],
+      "preliminary_decision": "exclude",
+      "criteria_met": ["IC5"],
+      "criteria_failed": ["IC1"],
+      "justification": "IC1 fails: focuses on virtual team performance broadly, not workplace meetings as the primary unit of analysis. Meeting format is incidental. Exclude.",
+      "scopus_search": null
+    },
+
+    {
+      "id": "SB035",
+      "title": "Virtual teams research: 10 years, 10 themes, and 10 opportunities",
+      "authors": "Gilson, L.L.; Maynard, M.T.; Jones Young, N.C.; Vartiainen, M.; Hakonen, M.",
+      "year": 2015,
+      "doi": "10.1177/014920631455994",
+      "venue": "Journal of Management",
+      "volume_issue": "41(5), 1313–1337",
+      "cited_in": ["Slapakova2025"],
+      "preliminary_decision": "exclude",
+      "criteria_met": ["IC5"],
+      "criteria_failed": ["IC1"],
+      "justification": "IC1 fails: review of virtual teams research generally, not meeting-focused. No taxonomy or structural analysis of meetings. Exclude.",
+      "scopus_search": null
+    }
+
+  ],
+
+  "summary": {
+    "total_candidates_identified": 35,
+    "preliminary_include": 22,
+    "preliminary_flag": 7,
+    "preliminary_exclude": 6,
+    "unique_dois_available": 18,
+    "no_doi_requires_title_search": 10,
+    "recommended_next_steps": [
+      "1. Run all 'include' DOI queries in Scopus to confirm indexing and retrieve full citation data.",
+      "2. For DOI-confirmed papers, check document type in Scopus (Article / Review / Book Chapter) — exclude if Book Chapter or Editorial.",
+      "3. Run 'flag' DOI/title queries; retrieve document type and check if paper is an editorial, book chapter, or practitioner piece (EC5).",
+      "4. For any 'include' or 'flag' paper confirmed in Scopus, add it to screened_results.csv with Selection_Decision = 'Included (snowball round 1)'.",
+      "5. Once round 1 papers are confirmed, run a new backward snowball on their reference sections for round 2.",
+      "6. Stop snowballing when no new papers meeting IC1 + (IC2 or IC3) are found (saturation criterion per Wohlin 2014)."
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "silhouette_score": 0.5358,
+  "davies_bouldin_score": 0.6932,
+  "calinski_harabasz_score": 362.93,
+  "n_topics": 13,
+  "n_outliers": 20,
+  "n_documents": 151,
+  "pct_clustered": 86.8,
+  "interpretation": {
+    "silhouette": "Range -1 to 1; >0.5 = strong clusters, 0.25-0.5 = reasonable",
+    "davies_bouldin": "Lower is better; <1.0 = good separation",
+    "calinski_harabasz": "Higher is better; indicates dense, well-separated clusters"
+  }
+}
